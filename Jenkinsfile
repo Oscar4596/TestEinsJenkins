@@ -12,6 +12,9 @@ stage('Build') {
 // milestone at the end of the lock, all jobs started prior to the current
 // build that are still waiting for the lock will be aborted
 
+//Estoy haciendo cambio xdxd
+
+
 // The Deploy stage does not limit concurrency but requires manual input
 // from a user. Several builds might reach this step waiting for input.
 // When a user promotes a specific build all preceding builds are aborted,
